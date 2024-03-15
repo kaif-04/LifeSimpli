@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LifeSimpli</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(0, 0, 0, 0.228);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-size: 16px; 
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 8px 12px;
+            border-radius: 5px;
+            background-color: #5bc0de;
+            transition: background-color 0.3s;
+            display: inline-block;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            background-color: #31b0d5;
+        }
+
+        .image-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .image-container {
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f8f9fa;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .image-container:hover {
+            transform: translateY(-5px);
+        }
+
+        img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        p {
+            font-size: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 style="color: darkorange ; background-color: darkviolet;">LifeSimpli</h1>
+        </header>
+        <nav>
+            <a href="https://expense-tracker-l75p.onrender.com">Expense Tracker</a>
+            <a href="https://url-shrinker-kmcz.onrender.com">URL Shortener</a>
+            <a href="https://tic-tac-toe-2n87.onrender.com">Tic Tac Toe</a>
+        </nav>
+        <div class="image-wrapper">
+            <div class="image-container">
+                <a href="https://expense-tracker-l75p.onrender.com">
+                    <img src="https://repository-images.githubusercontent.com/249873772/57a17580-8e27-11eb-9603-cf800abf5983" alt="Expense Tracker">
+                </a>
+                <p>Expense Tracker</p>
+            </div>
+            <div class="image-container">
+                <a href="https://url-shrinker-kmcz.onrender.com">
+                    <img src="https://sagemailer.com/blog/wp-content/uploads/2021/10/202004261739572590.jpeg" alt="URL Shortener">
+                </a>
+                <p>URL Shortener</p>
+            </div>
+            <div class="image-container">
+                <a href="https://tic-tac-toe-2n87.onrender.com">
+                    <img src="https://play-lh.googleusercontent.com/KZTO1L6r8CzWlg2InJoU_ndRAuvYiaS-35MyYdDPeeVCPNVfM9SBY2qRGjvvADmDIR8" alt="Tic Tac Toe">
+                </a>
+                <p>Tic Tac Toe</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
